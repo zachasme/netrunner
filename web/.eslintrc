@@ -1,0 +1,23 @@
+{
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "modules": true,
+    "module":  true,
+    "jsx": true,
+    "es6": true,
+    "esnext": true
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+
+    "space-in-parens": [1, "never"],
+    "space-in-brackets": [1, "never"]
+  },
+  "plugins": [
+    "react"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.15.7"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "flux": "npm:flux@^2.0.3",
+      "immutable": "npm:immutable@^3.7.4",
+      "react": "npm:react@^0.14.0-alpha3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "dependencies": {
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.5.2",
+    "express": "^4.13.0"
+  }
+}

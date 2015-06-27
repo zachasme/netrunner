@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="main"></div>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.babelOptions = {experimental: true, blacklist:[], stage: 0 };
+      System.import('bin/browser');
+    </script>
+  </body>
+</html>
